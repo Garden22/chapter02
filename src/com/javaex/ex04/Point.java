@@ -18,17 +18,17 @@ public class Point {
 	
 	// getter 메소드
 	public int getX() {
-		return x;
+		return this.x; // 얘는 this 붙여도 되고 안붙여도 됨
 	}
 	
 	public int getY() {
-		return y;
+		return this.y;
 	}
 	
 	
 	//일반 메소드
 	public void draw() {
-		System.out.println("점[x=" + x + ", y=" + y + "]을 그렸습니다.");
+		System.out.println("점[x=" + this.x + ", y=" + this.y + "]을 그렸습니다.");
 	}
 
 }
