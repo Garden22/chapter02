@@ -63,7 +63,7 @@ public class TV {
 	}
 	
 	
-	void channel(boolean up) {
+	public void channel(boolean up) {
 		if (this.power == true) {
 			if (up == true) {
 				channel(this.channel + 1);
